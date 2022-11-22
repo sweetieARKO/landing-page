@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.all{
+    padding: 5rem;
+    display: flex;
+}
+.step1{
+    text-align: left;
+}
+.step2{
+    text-align: right;
+    padding-left: 900px;
+}
+button{
+    width: 2px;
+    padding-left: 2px;
+    padding-right: 50px;
+    margin-right: 100px;
+    border-radius: 40%;
+}
