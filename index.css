@@ -1,23 +1,52 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 
 .all{
-    padding: 5rem;
-    display: flex;
+margin: 0 auto;
+    
+}
+
+.page{
+    padding: 3rem;
 }
 .step1{
-    text-align: left;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    place-items: center;
 }
-.step2{
-    text-align: right;
-    padding-left: 900px;
+
+.step1 h2{
+    font-size: 340px;
 }
+.step1 p{
+    font-size: 20px;
+
+    
+    }
+    .step2{    
+       display: flex; 
+       justify-content: space-between;
+    align-items: center;
+    place-items: center;
+    } 
 button{
-    width: 2px;
-    padding-left: 2px;
-    padding-right: 50px;
+    width: 130px;
     margin-right: 100px;
-    border-radius: 40%;
+    border-radius: 60px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+img{
+    max-width: 1000px;
+    max-height: 1000px;
+}
+.seem{
+    background-color: red;
+}
+
+.text{
+    width: 250px;
+    border: black;
 }
