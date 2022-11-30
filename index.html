@@ -12,7 +12,7 @@
     <div class="container">
       <nav>
         <h1>skilled</h1>
-         <a href="#">Get Started</a>
+         <a href="#" class="getStarted">Get Started</a>
       </nav>
       <div class="middle">
         <div class="txt">
@@ -29,7 +29,33 @@
           <a href="#">Get Started</a>
         </div>
         <div class="image">
-          <img src="img/image-hero-desktop@2x.webp" alt="">
+          <!-- <img src="img/image-hero-desktop@2x.webp" alt=""> -->
+          <picture>
+            <source
+              media="(min-width: 769px)"
+              srcset="
+              ./img/image-hero-desktop@2x.png 2x,
+                ./img/image-hero-desktop.png    1x
+              "
+            />
+
+            <source
+              media="(min-width: 481px)"
+              srcset="
+              ./img/image-hero-tablet@2x.png 2x,
+                ./img/image-hero-tablet.png    1x
+              "
+            />
+
+            <source
+              srcset="
+              ./img/image-hero-mobile@2x.png 2x,
+                ./img/image-hero-mobile.png    1x
+              "
+            />
+
+            <img src="./img/image-hero-mobile.png" alt="Hero Image" />
+          </picture>
         </div>
       </div>
       <div class="items">
