@@ -4,7 +4,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: "Plus Jakarta Sans";
-    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+   background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
     overflow-x: hidden;
 }
 
@@ -322,42 +322,57 @@ nav{
     padding-bottom: 10px;
 }
 .image{
-    margin-top: 570px;
-    margin-bottom: 1300px;
-    margin-left: 120px;
-    left: 44px;
+    margin-top: 566px;
+    margin-bottom:10px;
+    position: absolute;
+
 
 }
 .box{
-    margin-bottom: 50px;
-    margin-top: 130px;
+    margin-bottom: 40px;
+    margin-top:80px;
     width :343px
-    
-}
+ }
+ /*.box .box1{
+    width: 200px;
+    height: 1715px;
+    gap: 60px;
 
+}
+*/
 .items{
     height: 1715px;
     width: 375px;
     display: block;
-   margin-bottom: 40px;
-} /*
-.items .box{
-    width: 343px;
-    height: 126px;
-    padding-bottom: 130px;
-    margin-bottom: 100px;
+   margin-bottom: 30px;
+   margin-top:750px;
+} 
+.items .box {
+    position: relative;
+    width: 350px;
+    height: 322px;
+    background: white;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    border-radius: 15px;
+    padding: 64px 32px 40px 32px;
+    box-sizing: border-box;
+    margin-top: 384px;
 }
-  
-.items .box p {
-    font-size: 24px;
-    font-weight: 800;
-    line-height: 32px;
-}*/
+.items .box1{
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    color: #fff;
+    margin-top: 104px;
+    width: 343px;
+    height: 220px;
+
+}
 .footer{
- margin-top:654px;
- margin-left: 0px;
- padding-left: 20px;
- width: 345px;   
+    width: 1208px;
+    height: 120px;
+    background-color: #13183F;
+    margin-top: 2340px;
+    left: 0px;
+    padding-top: 36px;
 }
 .footer h3{
 font-family: 'Plus Jakarta Sans';
